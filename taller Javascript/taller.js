@@ -27,6 +27,17 @@ Crea un arreglo con tus 3 colores favoritos y muestra el primer color en la cons
 let coloresfavoritos = ["azul", "blanco", "rojo"];
 console.log(coloresfavoritos[0]);
 
+/**
+ * 4. Funciones:
+- Crea una función llamada “suma” que tome dos números como parámetros y retorne su
+suma
+*/
+
+function suma(num1, num2) {
+    return num1 + num2;
+}
+
+console.log(suma(5, 3));
 
 
 
